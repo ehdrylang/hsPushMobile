@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="building">
+        <item>공학관</item>
+        <item>낙산관</item>
+        <item>미래관</item>
+        <item>우촌관</item>
+        <item>지선관</item>
+        <item>진리관</item>
+        <item>창의관</item>
+        <item>탐구관</item>
+        <item>학송관</item>
+    </string-array>
+</resources>

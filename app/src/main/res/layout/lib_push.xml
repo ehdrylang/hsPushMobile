@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <Button
+            android:id="@+id/refresh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blue3"
+            android:text="refresh" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="제 1 열람실(3층) 좌석"
+                android:textSize="25dp" />
+
+            <WebView
+                android:id="@+id/Webview1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+            </WebView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="제 2 열람실(4층) 좌석"
+                android:textSize="25dp" />
+
+            <WebView
+                android:id="@+id/Webview2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+            </WebView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="우촌관 열람실(101호) 좌석"
+                android:textSize="25dp" />
+
+            <WebView
+                android:id="@+id/Webview3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+            </WebView>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
